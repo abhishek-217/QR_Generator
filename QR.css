@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(126, 138, 148);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+.container{
+    background-color: beige;
+    height: 400px;
+    width: 400px;
+    padding: 25px 35px;
+    border-radius: 2rem;
+    position: absolute;
+}
+.container p{
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.container input{
+    width: 100%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0 20px;
+    outline: 0;
+}
+.container button{
+    width: 100%;
+    height: 50px;
+    color: black;
+    background-color: bisque;
+    border: 0;
+    outline: 0;
+    padding:7px;
+    margin: 20px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgb(0, 0,  0.1);
+}
+
+ #imgQr{
+    padding-left: 100px;
+    /* width: 150px;
+    border: 5px;
+    max-height: 0;
+    overflow: hidden; */
+    transition:  1s;
+}
+
+/*#imageQr{
+    width: 100%;
+    padding: 10px;
+}  */
+
+/* #imagQr.show-img{
+    max-height: 300px;
+    margin: 10px auto;
+    border: 1px solid #d1d1d1;
+}
+
+
+/* For error shaking NO INPUT then */
+
+.error{
+    animation: shake 0.1s linear 8;
+}
+
+@keyframes shake {
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-2px);
+    }
+    50%{
+        transform: translateX(0);
+    }
+    75%{
+        transform: translateX(2px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
